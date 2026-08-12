@@ -1,0 +1,132 @@
+.sidebar{
+
+    width:260px;
+
+    min-width:260px;
+
+    height:100vh;
+
+    position:fixed;
+
+    left:0;
+
+    top:0;
+
+    background:#1d1f27;
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+}
+.logo{
+
+    padding:30px 20px;
+
+    text-align:center;
+
+    border-bottom:1px solid rgba(255,255,255,.1);
+
+}
+
+.sidebar ul{
+
+    list-style:none;
+
+    padding:20px 0;
+
+    margin:0;
+
+    flex:1;
+
+    overflow-y:auto;
+
+}
+
+.sidebar li{
+
+    margin:10px 0;
+
+}
+
+.sidebar li a{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+    padding:16px 25px;
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.sidebar li:hover{
+
+    background:#8B0000;
+
+}
+
+.sidebar li.active{
+
+    background:#8B0000;
+
+}
+
+.logout{
+
+    width: calc(100% - 40px);
+
+    margin: 20px;
+
+    margin-top: auto;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: linear-gradient(135deg,#c2185b,#8B0000);
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    transition: 0.3s;
+
+    box-sizing: border-box;
+
+}
+
+.logout:hover{
+
+    transform: translateY(-3px);
+
+    background: linear-gradient(135deg,#8B0000,#c2185b);
+
+    box-shadow: 0 8px 20px rgba(194,24,91,.35);
+
+}

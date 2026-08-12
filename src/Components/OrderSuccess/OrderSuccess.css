@@ -1,0 +1,92 @@
+.success-page{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#fafafa;
+}
+
+.success-card{
+    width:500px;
+    max-width:90%;
+    background:#fff;
+    padding:40px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+
+.success-icon{
+    font-size:80px;
+    color:#28a745;
+    margin-bottom:20px;
+}
+
+.success-card h1{
+    color:#8b0000;
+    margin-bottom:15px;
+}
+
+.success-card p{
+    color:#666;
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+.success-buttons{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.success-buttons button{
+    border:none;
+    padding:14px 24px;
+    border-radius:8px;
+    cursor:pointer;
+    color:white;
+    font-size:16px;
+    transition:.3s;
+}
+
+.orders-btn{
+    background:#8b0000;
+}
+
+.orders-btn:hover{
+    background:#c2185b;
+}
+
+.shop-btn{
+    background:#28a745;
+}
+
+.shop-btn:hover{
+    background:#218838;
+}
+
+@media(max-width:600px){
+
+.success-card{
+    padding:30px 20px;
+}
+
+.success-icon{
+    font-size:60px;
+}
+
+.success-card h1{
+    font-size:28px;
+}
+
+.success-buttons{
+    flex-direction:column;
+}
+
+.success-buttons button{
+    width:100%;
+}
+
+}

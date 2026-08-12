@@ -1,0 +1,292 @@
+/* ==========================================
+            ADMIN PRODUCTS PAGE
+========================================== */
+
+.admin-products{
+
+    margin-left:260px;
+
+    width:calc(100% - 260px);
+
+    min-height:100vh;
+
+    background:#f5f6fa;
+
+    padding:35px;
+
+    box-sizing:border-box;
+
+}
+
+/* ==========================================
+            HEADER
+========================================== */
+
+.products-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:30px;
+
+}
+
+.products-header h1{
+
+    font-size:34px;
+
+    color:#222;
+
+}
+
+/* ==========================================
+            ADD PRODUCT BUTTON
+========================================== */
+
+.add-product-btn{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:10px;
+
+    text-decoration:none;
+
+    background:linear-gradient(135deg,#8B0000,#c2185b);
+
+    color:white;
+
+    padding:14px 22px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.add-product-btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 20px rgba(0,0,0,.15);
+
+}
+
+/* ==========================================
+            SEARCH BAR
+========================================== */
+
+.search-box-admin{
+
+    display:flex;
+
+    align-items:center;
+
+    background:white;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+    margin-bottom:30px;
+
+}
+
+.search-box-admin svg{
+
+    color:#8B0000;
+
+    font-size:18px;
+
+}
+
+.search-box-admin input{
+
+    flex:1;
+
+    border:none;
+
+    outline:none;
+
+    margin-left:12px;
+
+    font-size:16px;
+
+    background:transparent;
+
+}
+
+/* ==========================================
+            TABLE
+========================================== */
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    border-radius:15px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+thead{
+
+    background:#8B0000;
+
+    color:white;
+
+}
+
+thead th{
+
+    padding:18px;
+
+    text-align:left;
+
+    font-size:16px;
+
+}
+
+tbody td{
+
+    padding:18px;
+
+    border-bottom:1px solid #eee;
+
+    vertical-align:middle;
+
+}
+
+tbody tr:hover{
+
+    background:#fff5f7;
+
+}
+
+/* ==========================================
+            PRODUCT IMAGE
+========================================== */
+
+tbody img{
+
+    width:70px;
+
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:10px;
+
+}
+
+/* ==========================================
+            BUTTONS
+========================================== */
+
+.edit-btn,
+.delete-btn{
+
+    border:none;
+
+    padding:10px 14px;
+
+    margin-right:10px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+    color:white;
+
+    transition:.3s;
+
+}
+
+.edit-btn{
+
+    background:#1976D2;
+
+}
+
+.edit-btn:hover{
+
+    background:#1259a7;
+
+}
+
+.delete-btn{
+
+    background:#E53935;
+
+}
+
+.delete-btn:hover{
+
+    background:#b71c1c;
+
+}
+
+/* ==========================================
+            RESPONSIVE
+========================================== */
+
+@media(max-width:992px){
+
+.admin-products{
+
+margin-left:220px;
+
+width:calc(100% - 220px);
+
+padding:25px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.admin-products{
+
+margin-left:0;
+
+width:100%;
+
+padding:20px;
+
+}
+
+.products-header{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+gap:20px;
+
+}
+
+table{
+
+display:block;
+
+overflow-x:auto;
+
+}
+
+}
