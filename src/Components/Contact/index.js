@@ -186,7 +186,7 @@ const Contact = () => {
                                 </h3>
 
                                 <p>
-                                    support@sareeelegance.com
+                                    support@sainadhsilks.com
                                 </p>
 
                             </div>

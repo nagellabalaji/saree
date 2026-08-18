@@ -2,8 +2,6 @@ import Categories from "../Categories";
 import Features from "../Features";
 import Footer from "../Footer";
 import Hero from "../Hero";
-import dinosaur from "../images/dinosaur.jpg";
-import Navbar from "../Navbar";
 import NewArrivals from "../NewArrivals";
 import OfferBanner from "../OfferBanner";
 import Subscribe from "../Subscribe";

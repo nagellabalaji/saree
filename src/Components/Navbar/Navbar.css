@@ -5,7 +5,7 @@
 }
 
 .top-bar {
-  background: #4b2354;
+  background: #5c1324;
   color: white;
   text-align: center;
   padding: 8px;
@@ -25,13 +25,13 @@
 }
 
 .logo h1 {
-  color: #3d2165;
+  color: #5c1324;
   font-size: 42px;
 }
 
 .logo span {
   letter-spacing: 4px;
-  color: #8b6b56;
+  color: #d4af37;
   font-size: 13px;
 }
 
@@ -65,7 +65,7 @@
   width: 150px;
   height: 48px;
   border: none;
-  background: #4b2354;
+  background: #5c1324;
   color: white;
   border-radius: 40px;
   cursor: pointer;
@@ -74,7 +74,7 @@
 }
 
 .search-box button:hover {
-  background: #c39b2e;
+  background: #d4af37;
 }
 
 .header-icons {
@@ -92,7 +92,7 @@
 
 .icon-box svg {
   font-size: 24px;
-  color: #4b2354;
+  color: #5c1324;
   margin-bottom: 6px;
 }
 
@@ -109,18 +109,18 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #4b2354;
+  color: #5c1324;
   cursor: pointer;
   font-size: 22px;
 }
 
 .theme-btn:hover {
-  background: #4b2354;
+  background: #5c1324;
   color: white;
 }
 
 .bottom-nav {
-  background: #4b2354;
+  background: #5c1324;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -147,7 +147,7 @@
   bottom: -12px;
   width: 0;
   height: 3px;
-  background: #e2b534;
+  background: #d4af37;
   transition: 0.3s;
 }
 
@@ -170,8 +170,8 @@
 
 .login-btn {
   text-decoration: none;
-  background: #cd1111;
-  color: #2d1550;
+  background: #d4af37;
+  color: #5c1324;
   padding: 12px 35px;
   border-radius: 30px;
   font-weight: bold;
@@ -254,7 +254,7 @@ body.dark .icon-box span{
 
 body.dark .icon-box svg{
 
-    color:#FFD54F;
+    color:#d4af37;
 
 }
 
@@ -262,13 +262,13 @@ body.dark .theme-btn{
 
     border-color:#666;
 
-    color:#FFD54F;
+    color:#d4af37;
 
 }
 
 body.dark .theme-btn:hover{
 
-    background:#FFD54F;
+    background:#d4af37;
 
     color:#222;
 

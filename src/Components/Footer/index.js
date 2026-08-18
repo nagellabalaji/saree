@@ -29,12 +29,12 @@ const Footer = () => {
                 <div className="footer-column">
 
                     <h2 className="footer-logo">
-                        Saree<span>Store</span>
+                        Sainadh<span>Silks</span>
                     </h2>
 
                     <p>
 
-                        SareeStore brings premium sarees, ethnic wear,
+                        Sainadh Silks brings premium sarees, ethnic wear,
                         festive collections and designer fashion at
                         affordable prices across India.
 
@@ -132,7 +132,7 @@ const Footer = () => {
 
                         <FaEnvelope />
 
-                        support@sareestore.com
+                        support@sainadhsilks.com
 
                     </p>
 
@@ -152,7 +152,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
 
-                © 2026 SareeStore. All Rights Reserved.
+                © 2026 Sainadh Silks. All Rights Reserved.
 
             </div>
 

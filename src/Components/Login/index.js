@@ -26,7 +26,7 @@ const Login = () => {
 
     const ADMIN = {
 
-        email: "admin@sareeelegance.com",
+        email: "admin@sainadhsilks.com",
 
         password: "Admin@123",
 

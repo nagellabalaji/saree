@@ -4,7 +4,7 @@
 
     margin:90px auto;
 
-    background:linear-gradient(135deg,#4B2354,#C44579);
+    background:linear-gradient(135deg,#5c1324,#C44579);
 
     border-radius:20px;
 
@@ -104,7 +104,7 @@
 
 .subscribe-box button:hover{
 
-    background:#4B2354;
+    background:#5c1324;
 
 }
 

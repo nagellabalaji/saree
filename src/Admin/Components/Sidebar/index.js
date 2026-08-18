@@ -31,7 +31,7 @@ const Sidebar = () => {
 
       <h2 className="logo">
 
-        👑 Saree Elegance
+        👑 Sainadh Silks
 
       </h2>
 

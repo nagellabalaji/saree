@@ -3,7 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import "./Orders.css";
-import { BASE_URL, headers } from "C:/Users/Lakshminarasimha/OneDrive/Desktop/react_practice/frontend/src/api/Supabase";
+import { BASE_URL, headers } from "../../api/Supabase";
 
 const Orders = () => {
 

@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import axios from "axios";
-import { BASE_URL, headers } from "C:/Users/Lakshminarasimha/OneDrive/Desktop/react_practice/frontend/src/api/Supabase";
+import { BASE_URL, headers } from "../api/Supabase";
 
 const CountContext = createContext();
 

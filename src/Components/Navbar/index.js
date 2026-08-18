@@ -18,7 +18,7 @@ import { useCategory } from "../../Context/CategoryContext";
 const Navbar = () => {
   const { cartCount, wishlistCount } = useCounts();
   const { searchTerm, setSearchTerm } = useSearch();
-  const { category, setCategory } = useCategory();
+  const { setCategory } = useCategory();
 
   const [theme, setTheme] = useState("light");
 
@@ -43,8 +43,8 @@ const Navbar = () => {
       <header className="header">
         <div className="logo">
           <Link to="/">
-            <h1>Saree Elegance</h1>
-            <span>TRADITION MEETS TREND</span>
+            <h1>Sainadh Silks</h1>
+            <span>THE EPITOME OF PURE SILK & ELEGANCE</span>
           </Link>
         </div>
 

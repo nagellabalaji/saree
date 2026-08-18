@@ -5,7 +5,7 @@ import { FaHeart } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 import "./Products.css";
-import { BASE_URL, headers } from "C:/Users/Lakshminarasimha/OneDrive/Desktop/react_practice/frontend/src/api/Supabase";
+import { BASE_URL, headers } from "../../api/Supabase";
 import { useCounts } from "../../Context/CountContext";
 import { useSearch } from "../../Context/SearchContext";
 import { useCategory } from "../../Context/CategoryContext";

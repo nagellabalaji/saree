@@ -3,7 +3,7 @@ import axios from "axios";
 import "./Sales.css";
 import { FaHeart, FaStar } from "react-icons/fa";
 import { toast } from "react-toastify";
-import { BASE_URL, headers } from "C:/Users/Lakshminarasimha/OneDrive/Desktop/react_practice/frontend/src/api/Supabase";
+import { BASE_URL, headers } from "../../api/Supabase";
 import { useCounts } from "../../Context/CountContext";
 import { addToCart } from "../../services/cartService";
 
