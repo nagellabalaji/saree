@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/saree/static/css/main.489c475e.css",
+    "main.js": "/saree/static/js/main.0b080aa5.js",
+    "static/js/453.68fdd588.chunk.js": "/saree/static/js/453.68fdd588.chunk.js",
+    "static/media/saree8.webp": "/saree/static/media/saree8.15399aedaf0b4a7c63e1.webp",
+    "static/media/silk.png": "/saree/static/media/silk.cd01c98d5df95302d46e.png",
+    "static/media/cotton.webp": "/saree/static/media/cotton.bd15600c42dfea68ad3b.webp",
+    "static/media/lehengas.jpg": "/saree/static/media/lehengas.bd5590e41646adb4e330.jpg",
+    "static/media/saree7.webp": "/saree/static/media/saree7.48c4e8286e83dcfe1fe4.webp",
+    "static/media/saree2.jpg": "/saree/static/media/saree2.166df312b1bc42e2f5a6.jpg",
+    "static/media/designer.webp": "/saree/static/media/designer.8bb51d6d1f77f10abbdd.webp",
+    "static/media/kurti.webp": "/saree/static/media/kurti.3a1b0830d75cf10f8766.webp",
+    "static/media/wedding.jpg": "/saree/static/media/wedding.e7db8934d8ade983f9d7.jpg",
+    "static/media/saree3.avif": "/saree/static/media/saree3.5fec8ed39fe1fb97aa63.avif",
+    "static/media/saree1.avif": "/saree/static/media/saree1.6526b85341a0c586a0c8.avif",
+    "static/media/festival.webp": "/saree/static/media/festival.5cd022ba403013669a84.webp",
+    "static/media/saree4.avif": "/saree/static/media/saree4.9251277bb53abc185251.avif",
+    "static/media/saree5.avif": "/saree/static/media/saree5.bf5f0e263556562ed323.avif",
+    "static/media/saree6.avif": "/saree/static/media/saree6.ddc2541e261f55472fd2.avif",
+    "static/media/gowns.webp": "/saree/static/media/gowns.f448c21e65870c8b7304.webp",
+    "static/media/hero3.jpg": "/saree/static/media/hero3.3a09f1c7a763837a4fee.jpg",
+    "static/media/office.jpg": "/saree/static/media/office.04eaa77e5da374fd6ca0.jpg",
+    "static/media/hero2.avif": "/saree/static/media/hero2.c121fb8c159709ce5710.avif",
+    "static/media/hero1.avif": "/saree/static/media/hero1.36855440614d0d2694e2.avif",
+    "static/media/banner.avif": "/saree/static/media/banner.4e3ed80b4674e79bf8a8.avif",
+    "index.html": "/saree/index.html",
+    "main.489c475e.css.map": "/saree/static/css/main.489c475e.css.map",
+    "main.0b080aa5.js.map": "/saree/static/js/main.0b080aa5.js.map",
+    "453.68fdd588.chunk.js.map": "/saree/static/js/453.68fdd588.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.489c475e.css",
+    "static/js/main.0b080aa5.js"
+  ]
+}
